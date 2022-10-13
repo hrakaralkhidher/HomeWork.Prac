@@ -1,5 +1,44 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Hello People");
+        // some practice for my own
+        String name = "Hrakar";
+        int age = 25;
+
+        if (age > 20){
+            System.out.println(name+ " is verified to enter");
+        } else {
+            System.out.println(name+ " NOT verified to enter");
+        }
+
+
+        // switch statements
+
+        int day = 5;
+        switch  (day){
+            case 1:
+                System.out.println("Its Monday");
+                break;
+            case 2:
+                System.out.println("Its Tuesday");
+                break;
+            case 3:
+                System.out.println("Its Wednesday");
+                break;
+            case 4:
+                System.out.println("Its Thursday");
+                break;
+            case 5:
+                System.out.println("Its Friday");
+                break;
+            case 6:
+                System.out.println("Its Saturday");
+                break;
+            case 7:
+                System.out.println("Its Sunday");
+                break;
+            default:
+                System.out.println("Error");
+        }
     }
 }
