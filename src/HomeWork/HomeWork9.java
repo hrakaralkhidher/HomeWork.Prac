@@ -26,5 +26,7 @@ public class HomeWork9 {
         }else{
             System.out.println("There are no max numbers.");
         }
+        //int result= (number1>number2 && number1>number3) ? number1 : (number2>number3 && number2>number1) ? number2 : number3 ;
+        //System.out.println("The Max Number is: "+result);
     }
 }
