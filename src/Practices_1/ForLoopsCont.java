@@ -14,5 +14,17 @@ public class ForLoopsCont {
             reverse1 = reverse1+input1.charAt(i);
         }
         System.out.println("the reverse vale of the reverse1 is: "+reverse1);
+
+        System.out.println("****************************************************************");
+
+        System.out.println("Enter anyones name to revers: ");
+        String name = scan.nextLine();
+        char chh = name.charAt(0);
+        System.out.println("the length of the sent: "+name.length());
+        String reverse3 = " ";
+        for (int i = name.length()-1; i>0 ; i--) {
+            reverse3=reverse3+name.charAt(i);
+        }
+        System.out.println("the reverse value is now: "+reverse3);
     }
 }
