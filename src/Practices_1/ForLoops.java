@@ -47,7 +47,13 @@ public class ForLoops {
         System.out.println("the revers of the input is: "+reverse);
         System.out.println("********************************************************************");
 
-
+        System.out.println("You whats your name: ");
+        String you = sc.nextLine();
+        String rev = "";
+        for (int i = 0; i < you.length(); i++) {
+            rev = you.charAt(i)+rev;
+        }
+        System.out.println("Your name is now reversed: "+rev);
 
 
 
